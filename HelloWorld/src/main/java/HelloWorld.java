@@ -6,8 +6,8 @@ public class HelloWorld {
      * You can use the test results to check for differences.
      * @return "Hello, world!"
      */
-    public static void main (String args[]){
-        System.out.println("Hello, world!");
+    public String sayHello(){
+       String sayHello = "Hello, world!"; 
+       return sayHello;
     }
-
     }
