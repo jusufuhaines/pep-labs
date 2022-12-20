@@ -12,9 +12,13 @@ public class Parrot {
      * @return text.
      */
 
-    public String copy(String text){
-        text = "hello";
-        return text;
+    public String copy(String san){
+        if(san =="hello"){
+            return san;
+        }
+        else if(san == "polly"){
+            return san; 
+        }
         
     }
 }
