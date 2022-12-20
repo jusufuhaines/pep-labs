@@ -7,7 +7,7 @@ public class HelloWorld {
      * @return "Hello, world!"
      */
     
-    public sayHello(){
+    public void sayHello(){
         System.out.println("Hello, world!");
     }
     
