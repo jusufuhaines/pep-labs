@@ -6,9 +6,9 @@ public class HelloWorld {
      * You can use the test results to check for differences.
      * @return "Hello, world!"
      */
-    
-    public void sayHello(){
+    public static void main (String[] args){
         System.out.println("Hello, world!");
     }
+    
     
 }
