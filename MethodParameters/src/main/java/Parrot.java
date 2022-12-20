@@ -12,6 +12,9 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        Parrot str = new Parrot("hello");
+        Parrot str1 = new Parrot("polly");
+        return str + " " + str1;
     }
+    
 }
