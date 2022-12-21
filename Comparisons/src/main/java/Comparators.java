@@ -15,39 +15,8 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is equal to b, false otherwise.
      */
-
-     Scanner sc = new Scanner(System.in);
-     System.out.println("Enter the first number":);
-     String ainput = sc.nextLine();
-     double a = Double.parseDouble(ainput);
-
-     System.out.println("Enter the second number:");
-     String binput = sc.nextLine();
-     double b = Double.parseDouble(binput);
-
-    Static void true(String text){
-        text = "true";
-        return text;
-    }
-
-    Static void false(String text1){
-        text1 = "false";
-        return text1;
-    }
-     public static void main (String args[]){
-        if(a==b){
-            String text = new String("true");
-            return text;
-        }
-        else{
-            String text = new String("false");
-            return text;
-        }
-     }
-
-
         
-    public boolean isEqual(int a, int b){
+    public static boolean isEqual(int a, int b){
         return false;
     }
 
@@ -56,7 +25,7 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is greater than b, false otherwise.
      */
-    public boolean greaterThan(int a, int b){
+    public static boolean greaterThan(int a, int b){
         return false;
     }
     /**
@@ -64,7 +33,7 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is less than b, false otherwise.
      */
-    public boolean lessThan(int a, int b){
+    public static boolean lessThan(int a, int b){
         return false;
     }
     /**
@@ -72,7 +41,7 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is greater than or equal to b, false otherwise.
      */
-    public boolean greaterThanOrEqualTo(int a, int b){
+    public static boolean greaterThanOrEqualTo(int a, int b){
         return false;
     }
     /**
@@ -80,7 +49,7 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is less than or equal to b, false otherwise.
      */
-    public boolean lessThanOrEqualTo(int a, int b){
+    public static boolean lessThanOrEqualTo(int a, int b){
         return false;
     }
 
@@ -89,7 +58,26 @@ public class Comparators {
      * @param b the second number to be compared.
      * @return true if a is not equal to b, false otherwise.
      */
-    public boolean notEqualTo(int a, int b){
+    public static boolean notEqualTo(int a, int b){
         return false;
+    }
+
+    public static void main (String args[]){
+        Comparators.isEqual(7,7);
+        Comparators.isEqual(7,8);
+        Comparators.greaterThan(84,9);
+        Comparators.greaterThan(9,84);
+        Comparators.greaterThan(84,84);
+        Comparators.lessThan(8,9);
+        lessThan(9,8);
+        lessThan(9,9);
+        greaterThanOrEqualTo(9,1);
+        greaterThanOrEqualTo(1,9);
+        greaterThanOrEqualTo(1,1);
+        lessThanOrEqualTo(2,3);
+        lessThanOrEqualTo(3,2);
+        lessThanOrEqualTo(2,2);
+        notEqualTo(7,0);
+        notEqualTo(0,0);
     }
 }
