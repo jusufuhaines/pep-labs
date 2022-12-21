@@ -16,7 +16,16 @@ public class IfStatement {
      * @param y second number to be compared.
      * @return x if bool is true. if bool is false, return y.
      */
-    public int ifExample(boolean bool, int x, int y){
-        return 0;
+    public static int ifExample(boolean bool, int x, int y){
+        if(bool=true){
+            return x;
+        }
+        else{
+            return y;
+        }
+    }
+    public static void main(String args[]){
+        IfStatement.ifExample(true,0,1);
+        IfStatement.ifExample(false,0,1);
     }
 }
