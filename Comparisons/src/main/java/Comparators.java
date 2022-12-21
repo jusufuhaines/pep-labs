@@ -7,12 +7,46 @@
  * 
  * Additional Resource if needed: https://www.oreilly.com/library/view/java-for-dummies/9781118239742/a17.html
  */
+import java.util.Scanner;
+
 public class Comparators {
     /**
      * @param a the first number to be compared.
      * @param b the second number to be compared.
      * @return true if a is equal to b, false otherwise.
      */
+
+     Scanner sc = new Scanner(System.in);
+     System.out.println("Enter the first number":);
+     String ainput = sc.nextLine();
+     double a = Double.parseDouble(ainput);
+
+     System.out.println("Enter the second number:");
+     String binput = sc.nextLine();
+     double b = Double.parseDouble(binput);
+
+    Static void true(String text){
+        text = "true";
+        return text;
+    }
+
+    Static void false(String text1){
+        text1 = "false";
+        return text1;
+    }
+     public static void main (String args[]){
+        if(a==b){
+            String text = new String("true");
+            return text;
+        }
+        else{
+            String text = new String("false");
+            return text;
+        }
+     }
+
+
+        
     public boolean isEqual(int a, int b){
         return false;
     }
