@@ -26,7 +26,9 @@ public class IfStatement {
         }
     }
     public static void main(String args[]){
-        IfStatement.ifExample(true,0,1);
-        IfStatement.ifExample(false,0,1);
+        IfStatement try3 = new IfStatement();
+        IfStatement try1 = new IfStatement();
+        try3.ifExample(true, 0, 1);
+        try1.ifExample(false,0,1);
     }
 }
