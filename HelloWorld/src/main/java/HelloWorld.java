@@ -9,5 +9,11 @@ public class HelloWorld {
     public String sayHello(){
        String sayHello = "Hello, world!"; 
        return sayHello;
+    }/*public class JohnLegend {
+         public String goodMorning{
+            String goodMorning = "Good Morning!!";
+            return goodMorning;
+         }
     }
+    } */
     }
