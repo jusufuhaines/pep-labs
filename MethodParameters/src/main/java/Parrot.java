@@ -19,6 +19,13 @@ public class Parrot {
         copy("hello");
         copy("polly");
     }
-
+/*public String yes(String text){
+        return text;
+     }
+    public static void main(String[] args){
+        yes("wassup");
+        yes("Wass goodie");
+    }
+} */
 }
     
