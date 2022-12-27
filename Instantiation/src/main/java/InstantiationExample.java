@@ -18,18 +18,17 @@ public class InstantiationExample {
      * @return any object.
      */
     
-     public InstantiationExample(){
-
+     public InstantiationExample(){     //created a constructor
+         
      }
-     
-    public static Object instantiateANewObject(){
-        return null;
+
+    public static Object instantiateANewObject(){       
+        InstantiationExample i = new InstantiationExample();
+        return i;
     }
-    public static void main(String[] args){}
-       // InstantiationExample i = new InstantiationExample();
-       // i.instantiateANewObject();
-       InstantiationExample.instantiateANewObject();
-}
+  
+        
+    
     
 }
 
