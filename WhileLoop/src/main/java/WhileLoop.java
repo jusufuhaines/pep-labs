@@ -37,19 +37,19 @@ public class WhileLoop {
          int i = 0;
 
 //        code here
-        while(i<end){
-            i = i+1;
+        while(i<end){ 
             sum = i+sum;
-            
-            System.out.println("i is: " + i);
             System.out.println("sum is: " + sum);
+            
+            i = i+1;        
+            System.out.println("i is: " + i);
+            
         }
 
         return sum;
     }
     public static void main(String[] args){
-        WhileLoop eman = new WhileLoop();
-        
-        eman.whileExample(3);
+        WhileLoop w1 = new WhileLoop();
+        w1.whileExample(0);
     }
 }
