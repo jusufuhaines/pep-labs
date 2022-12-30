@@ -198,8 +198,8 @@
     :tests:
       getLengthTest1: 1
       getLengthTest2: 0
-      getNthElementOfArrayTest1: 1
-      getNthElementOfArrayTest2: 0
+      getNthElementOfArrayTest1: 0
+      getNthElementOfArrayTest2: 1
       getNthElementOfArrayTest3: 0
       setNthElementOfArrayTest1: 0
       setNthElementOfArrayTest2: 0

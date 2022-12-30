@@ -15,8 +15,7 @@ public class ArrayBasics {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){ //created a method
-        arr = new int[5];
-        return arr.length;
+        return arr.length; 
     }
 
 
@@ -29,12 +28,7 @@ public class ArrayBasics {
      */
     public int getNthElementOfArray(int[] arr, int n){ //created a method
         arr[0] = 5;
-        arr[2] = 7;
-        for(n=0; n<arr.length; n++){
-            System.out.println(arr[n]);
-        }
         return arr[0];
-        return arr[2];
        
     }
 
@@ -48,6 +42,7 @@ public class ArrayBasics {
      */
     public void setNthElementOfArray(int[] arr, int n, int val){ //created a method
 
+
     }
 
     /**
@@ -56,5 +51,10 @@ public class ArrayBasics {
      */
     public int[] returnNewArraySizeN(int n){    //created a method2
         return null;
+    }
+    public static void main(String[] args){
+        ArrayBasics i = new ArrayBasics();
+        i.getLengthOfArray[5];
+        i.getLengthOfArray[3];
     }
 }
