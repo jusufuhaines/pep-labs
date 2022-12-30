@@ -18,8 +18,6 @@ public class ArrayBasics {
         return arr.length; 
     }
 
-
-
     /**
      * @param arr the array we're getting data from.
      * @param n the index (number) of the element we're looking to return.
@@ -27,8 +25,7 @@ public class ArrayBasics {
      * @return the element at index n of arr.
      */
     public int getNthElementOfArray(int[] arr, int n){ //created a method
-        arr[0] = 5;
-        return arr[0];
+        return arr[n];
        
     }
 
@@ -41,7 +38,7 @@ public class ArrayBasics {
      * @return nothing. Because of pass-by-reference, any change to the array will be reflected across our java program.
      */
     public void setNthElementOfArray(int[] arr, int n, int val){ //created a method
-
+        arr[n] = val;
 
     }
 
@@ -50,11 +47,29 @@ public class ArrayBasics {
      * @return a new int array that can contain n elements.
      */
     public int[] returnNewArraySizeN(int n){    //created a method2
-        return null;
+        int[] arr = new int[n];
+        return arr;
     }
     public static void main(String[] args){
         ArrayBasics i = new ArrayBasics();
-        i.getLengthOfArray[5];
-        i.getLengthOfArray[3];
+        int[] jus = new int[5];
+        int[] ufu = new int[3];
+        int[] hai = {8,4,7,3,8,5};
+        int[] nes = {5,3,9,1,0};
+        int[] nest = {6,4,8};
+        int[] shotgun = {9,3,7,3,6};
+        int[] handgun = {9,3,4};
+        
+
+        i.getLengthOfArray(jus);
+        i.getLengthOfArray(ufu);
+        i.getNthElementOfArray(hai, 2);
+        i.getNthElementOfArray(nes, 0);
+        i.getNthElementOfArray(nest, 2);
+        i.setNthElementOfArray(shotgun, 2, 7);
+        i.setNthElementOfArray(handgun, 0, 2);
+        i.returnNewArraySizeN(2);
+        
     }
+
 }
