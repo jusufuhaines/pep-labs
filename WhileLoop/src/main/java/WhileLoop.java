@@ -33,11 +33,23 @@ public class WhileLoop {
      *
      **/
     public int whileExample(int end){
-        int sum = 0;
-        int i = 0;
+         int sum = 0;
+         int i = 0;
 
 //        code here
+        while(i<end){
+            i = i+1;
+            sum = i+sum;
+            
+            System.out.println("i is: " + i);
+            System.out.println("sum is: " + sum);
+        }
 
         return sum;
+    }
+    public static void main(String[] args){
+        WhileLoop eman = new WhileLoop();
+        
+        eman.whileExample(3);
     }
 }
