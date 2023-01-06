@@ -9,4 +9,8 @@ public class CustomException extends Exception{
     public void CustomExceptiom(String a, int x){
 
     }
+
+    public static void main(String[] args){
+       
+    }
 }
