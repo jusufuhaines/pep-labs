@@ -12,7 +12,7 @@ public class CustomExceptionThrower {
         try{
             CustomException e;
         }
-        catch (CustomException e){
+        catch(e){
             throw new Exception("Custom Exception Thrown");
         }
 
