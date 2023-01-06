@@ -5,9 +5,13 @@
  * Potentially, this class could also override some the behavior of Exception.
  */
 public class CustomException extends Exception{
-    
-    public void CustomExceptiom(String a, int x){
+    private String atext = "Custom Exception";
 
+    public void CustomExceptiom(String atext){
+        super(atext);
+    }
+    public void setCode(String atext){
+        this.atext = atext;
     }
 
 }
