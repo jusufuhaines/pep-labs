@@ -5,15 +5,9 @@
  * Potentially, this class could also override some the behavior of Exception.
  */
 public class CustomException extends Exception{
-private String code;
 
-    public void CustomExceptiom(String code, String message){
-        System.out.println(message);
-        this.setCode(code);
+    public void CustomExceptiom(String message, String code){
+
     }
-    public void setCode(String code){
-        this.code = code;
-    }
-    
 
 }
