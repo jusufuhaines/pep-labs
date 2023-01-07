@@ -10,7 +10,7 @@ public class CustomExceptionThrower {
      */
     public static void throwCustomException() throws CustomException{
        try{
-            CustomException();
+            CustomException.setCode();
         }
         catch(CustomException e){
             e.printStackTrace();
