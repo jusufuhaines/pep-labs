@@ -9,5 +9,9 @@ public class CustomException extends Exception{
     public void CustomException(){
         
     }
+    public static void main(String[] args){
+        CustomException e = new CustomException();
+        e = null;
+    }
 
 }

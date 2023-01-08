@@ -8,11 +8,13 @@ public class CustomExceptionThrower {
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
-    public static void throwCustomException() throws CustomException{
+    public static void throwCustomException() throws Exception{    
        try{
             CustomException e = new CustomException();
+            e = null;
+            e.getCause();
         }
-        catch(CustomException e){
+        catch(Exception e){
             System.out.println("You did not Instantiate the class CustomException");
         }
     }
