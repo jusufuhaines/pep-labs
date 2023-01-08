@@ -1,4 +1,4 @@
-
+import java.util.HashMap;
 import java.util.Map;
 
 /**
@@ -26,7 +26,8 @@ public class MapExercise {
      * so here Integer is a wrapper for int.
      */
     public Map<Integer, String> createMap(){
-        return null;
+        HashMap<Integer, String> j = new HashMap<Integer, String>();
+        return j;
     }
 
     /**
@@ -36,7 +37,7 @@ public class MapExercise {
      */
     public int getSize(Map<Integer,String> map){
 //        return total number of key/value pairs in the map
-        return 0;
+        return map.size();
     }
 
     /**
