@@ -7,7 +7,7 @@
 public class CustomException extends Exception{
 
     public void CustomException(){
-        throw new Exception("THis is a custom exception");
+        
     }
 
 }
