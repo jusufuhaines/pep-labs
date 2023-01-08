@@ -6,8 +6,8 @@
  */
 public class CustomException extends Exception{
 
-    public void CustomExceptiom(String message, String code){
-
+    public void CustomException(){
+        throw new Exception("THis is a custom exception");
     }
 
 }

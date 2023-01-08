@@ -10,7 +10,7 @@ public class CustomExceptionThrower {
      */
     public static void throwCustomException() throws CustomException{
        try{
-            CustomException();
+            CustomException e = new CustomException();
         }
         catch(CustomException e){
             System.out.println("You did not Instantiate the class CustomException");
