@@ -11,12 +11,5 @@ public class CustomExceptionThrower {
     public static void throwCustomException() throws CustomException{    
         throw new CustomException(null);
     }
-    public static void main(String[] args){
-        try{
-            throwCustomException();
-        }
-        catch(Exception e){
-            System.out.println("You did not create an instance of the class ");
-        }
-    }
+   
 }
