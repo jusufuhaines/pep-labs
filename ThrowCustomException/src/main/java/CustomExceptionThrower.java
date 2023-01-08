@@ -8,9 +8,8 @@ public class CustomExceptionThrower {
      *
      * I recommend looking at the test case for a good example of try/catch block usage, as well.
      */
-    public static void throwCustomException() throws Exception{    
-        int a;
-        a = String 
+    public static void throwCustomException() throws CustomException{    
+        throw new CustomException(null);
     }
     public static void main(String[] args){
         try{

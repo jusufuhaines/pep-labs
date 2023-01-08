@@ -6,8 +6,8 @@
  */
 public class CustomException extends Exception{
 
-    public void CustomException(){
-        
+    public CustomException(String message){
+       super(message);
     }
    
 
