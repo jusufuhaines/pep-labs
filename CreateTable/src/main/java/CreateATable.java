@@ -1,6 +1,7 @@
-
 import Util.ConnectionUtil;
 import Util.FileUtil;
+
+import static org.junit.Assert.assertFalse;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -73,5 +74,9 @@ public class CreateATable {
             System.out.println("problem1: " + e.getMessage() + '\n');
         }
     }
+    public static void main(String[] args){
+        CreateATable song = new CreateATable();
 
+        song.problem1();
+    }
 }
