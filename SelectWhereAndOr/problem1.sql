@@ -1,1 +1,1 @@
-SELECT * FROM Employee WHERE salary > 75000.00 AND firstName = 'Steve';
+SELECT * FROM Employee WHERE salary > 75000.00 AND first_name = 'Steve';
