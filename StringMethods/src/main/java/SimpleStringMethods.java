@@ -38,7 +38,13 @@ public class SimpleStringMethods {
      * @return the index of the first occurence of c within s.
      */
     public int indexOf(String s, char c){
-        return -1;
+        int n;
+        char[] ch = {'a', 'b', 'c'};
+        s = new String(ch);
+        for(ch[n]){
+            int n = n;
+        }
+        return n;
     }
 
 }
