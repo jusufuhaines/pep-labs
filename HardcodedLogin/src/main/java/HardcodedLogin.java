@@ -18,6 +18,5 @@ public class HardcodedLogin {
         username = "admin";
         password = "querty";
         return true;
-        //password = "password";
     }
 }
