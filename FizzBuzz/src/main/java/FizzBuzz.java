@@ -22,13 +22,15 @@ public class FizzBuzz {
         String buzz = "";
         if(n%3==0){
             fizz = "Fizz";
-            fizzbuzz = fizz;
+            fizzbuzz = fizz + buzz;
         }
         else if(n%5==0){
             buzz = "Buzz";
-            fizzbuzz = fizz;
+            fizzbuzz = fizz + buzz;
         }
         else if(n%3==0 && n%5==0){
+            fizz = "Fizz";
+            buzz = "Buzz";
             fizzbuzz = fizz + buzz;
         }
         else{
