@@ -23,7 +23,7 @@ public class BankService {
      * @param amount the amount to be deposited.
      */
     public void deposit(double amount){
-        amount = balance + amount;
+        this.balance = balance + amount;
 
     }
 
@@ -33,7 +33,13 @@ public class BankService {
      * @param amount the amount to be withdrawn.
      */
     public void withdraw(double amount){
-        System.out.println("Error, a withdrawal amount in " + amount + "will result in a negative balance.");
+        if((balance - amount) >= 0){
+            balance = balance - amount;
+        }
+        else{
+            System.out.println("Error, a withdrawal amount in " + amount + "will result in a negative balance.");
+        }
+        
 
     }
 
@@ -42,6 +48,6 @@ public class BankService {
      * @return the user's balance.
      */
     public double getBalance(){
-        return 0;
+        return balance;
     }
 }
